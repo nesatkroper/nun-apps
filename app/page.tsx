@@ -21,6 +21,7 @@ export default function HomePage() {
         "Select and organize with ease. Nun Picker streamlines your choices with an intuitive interface.",
       imageUrl: "/assets/images/color-picker.png",
       downloadUrl: "/assets/deb/nun-picker_1.0.deb",
+      detailUrl: "/nun-picker",
     },
     {
       name: "Nun Scanner",
@@ -28,6 +29,7 @@ export default function HomePage() {
         "Scan documents and QR codes instantly. Nun Scanner brings powerful scanning capabilities to your fingertips.",
       imageUrl: "/assets/images/scan.png",
       downloadUrl: "/assets/deb/nun-scan_1.0.deb",
+      detailUrl: "/nun-scan",
     },
     {
       name: "Nun Speed",
@@ -35,6 +37,7 @@ export default function HomePage() {
         "Test and optimize your connection speed. Nun Speed delivers accurate network performance metrics.",
       imageUrl: "/assets/images/speed.png",
       downloadUrl: "/assets/deb/nun-speed_1.0.deb",
+      detailUrl: "/nun-speed",
     },
     {
       name: "Nun Scrape",
@@ -42,6 +45,7 @@ export default function HomePage() {
         "Extract and collect data efficiently. Nun Scrape automates your data gathering workflows.",
       imageUrl: "/assets/images/crawling.png",
       downloadUrl: "/assets/deb/nun-scrape_1.0.deb",
+      detailUrl: "/nun-scrape",
     },
     {
       name: "Nun Sync",
@@ -49,6 +53,7 @@ export default function HomePage() {
         "Keep your data synchronized across devices. Nun Sync ensures seamless connectivity and backup.",
       imageUrl: "/assets/images/programming.png",
       downloadUrl: "/assets/deb/nun-remove_1.0.deb",
+      detailUrl: "/nun-remove",
     },
   ];
 
