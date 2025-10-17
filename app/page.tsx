@@ -48,12 +48,20 @@ export default function HomePage() {
       detailUrl: "/nun-scrape",
     },
     {
-      name: "Nun Sync",
+      name: "Nun Remove",
       description:
         "Keep your data synchronized across devices. Nun Sync ensures seamless connectivity and backup.",
       imageUrl: "/assets/images/programming.png",
       downloadUrl: "/assets/deb/nun-remove_1.0.deb",
       detailUrl: "/nun-remove",
+    },
+    {
+      name: "Setup Site",
+      description:
+        "Automate Apache + Certbot VirtualHost setup on Linux. One command to configure your web server with SSL.",
+      imageUrl: "/assets/images/settings.png",
+      downloadUrl: "/assets/bash/setup-site.sh",
+      detailUrl: "/setup-site",
     },
   ];
 
