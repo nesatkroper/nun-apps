@@ -11,7 +11,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Nun Apps — Smart Tools for Modern Productivity",
+    default: "Nun Apps",
     template: "%s | Nun Apps",
   },
   description:

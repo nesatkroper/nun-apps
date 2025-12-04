@@ -4,6 +4,8 @@ import { AppCard } from "@/components/app-card";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MobileNav } from "@/components/mobile-nav";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faShieldHalved, faRocket, faDatabase, faLock, faUserCircle } from "@fortawesome/free-solid-svg-icons"
 
 export default function HomePage() {
   const apps = [
@@ -139,6 +141,95 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Other Products */}
+      <div className="mt-16 p-8">
+        <h2 className="text-center text-3xl font-bold text-foreground">Other Products</h2>
+        <p className="text-center mt-2 mb-10 text-muted-foreground">
+          Explore more tools and apps I’ve built.
+        </p>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
+          <a
+            href="https://app.konkmeng.site"
+            target="_blank"
+            className="hidden rounded-lg border border-border bg-card p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+              <FontAwesomeIcon icon={faShieldHalved} className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="text-lg font-semibold text-card-foreground">Nun App</h3>
+            <p className="mt-2 text-muted-foreground">
+              A complete management app for your workflow.
+            </p>
+            <div className="mt-4 text-primary font-medium">app.konkmeng.site →</div>
+          </a>
+
+          <a
+            href="https://ai.konkmeng.site"
+            target="_blank"
+            className="rounded-lg border border-border bg-card p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+              <FontAwesomeIcon icon={faRocket} className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="text-lg font-semibold text-card-foreground">NunAI</h3>
+            <p className="mt-2 text-muted-foreground">
+              Smart AI assistant for content creation and automation.
+            </p>
+            <div className="mt-4 text-primary font-medium">ai.konkmeng.site →</div>
+          </a>
+
+          {/* Nun Tools */}
+          <a
+            href="https://tool.konkmeng.site"
+            target="_blank"
+            className="rounded-lg border border-border bg-card p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+              <FontAwesomeIcon icon={faDatabase} className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="text-lg font-semibold text-card-foreground">Nun Tools</h3>
+            <p className="mt-2 text-muted-foreground">
+              A collection of utility tools for daily tasks.
+            </p>
+            <div className="mt-4 text-primary font-medium">tool.konkmeng.site →</div>
+          </a>
+
+          {/* Portfolio */}
+          <a
+            href="https://nun.konkmeng.site"
+            target="_blank"
+            className="rounded-lg border border-border bg-card p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+              <FontAwesomeIcon icon={faUserCircle} className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="text-lg font-semibold text-card-foreground">Portfolio</h3>
+            <p className="mt-2 text-muted-foreground">
+              Personal portfolio showcasing my projects and achievements.
+            </p>
+            <div className="mt-4 text-primary font-medium">nun.konkmeng.site →</div>
+          </a>
+
+          {/* Portfolio */}
+          <a
+            href="https://konkmeng.site"
+            target="_blank"
+            className="rounded-lg border border-border bg-card p-6 transition hover:shadow-md hover:-translate-y-[2px]"
+          >
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+              <FontAwesomeIcon icon={faShieldHalved} className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="text-lg font-semibold text-card-foreground">Nun Account</h3>
+            <p className="mt-2 text-muted-foreground">
+              Manage All Your Accounts in One Place.
+            </p>
+            <div className="mt-4 text-primary font-medium">konkmeng.site →</div>
+          </a>
+
+        </div>
+      </div>
+
       <footer className='border-t border-border/40 mt-20'>
         <div className='container mx-auto px-4 py-12'>
           <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
@@ -203,6 +294,8 @@ export default function HomePage() {
               </ul>
             </div>
           </div>
+
+
 
           <div className='max-w-6xl mx-auto mt-12 pt-8 border-t border-border/40 text-center text-sm text-muted-foreground'>
             <p>
